@@ -2,9 +2,9 @@
 
 ;; Copyright (C) 2023 Dean Gao - MIT License
 ;; Author: Dean Gao <gao.dean@hotmail.com>
+;; Package-Requires: ((org "9.7"))
 ;; Description: Inline display of remote images in org-mode
 ;; Homepage: https://github.com/gaoDean/org-remoteimg
-;; Package-Requires: ((org "9.7"))
 ;;
 
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy
