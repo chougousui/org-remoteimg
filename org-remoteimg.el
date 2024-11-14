@@ -5,7 +5,7 @@
 ;; Description: Inline display of remote images in org-mode
 ;; Homepage: https://github.com/gaoDean/org-remoteimg
 ;; Package-Requires: ((emacs "30.0") (org "9.7"))
-
+;;
 
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy
 ;; of this software and associated documentation files (the "Software"), to deal
