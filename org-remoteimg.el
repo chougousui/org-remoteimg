@@ -38,6 +38,7 @@
 (require 'url)
 (require 'url-cache)
 
+;;;###autoload
 (defun org-image-update-overlay (file link &optional data-p refresh)
   "Create image overlay for FILE associtated with org-element LINK.
 If DATA-P is non-nil FILE is not a file name but a string with
@@ -115,6 +116,7 @@ Full credit to org-yt by Tobias Zawada for this function."
               (push ov org-inline-image-overlays)
               ov)))))))
 
+;;;###autoload
 (defun org-display-user-inline-images
     (&optional _include-linked _refresh beg end)
   "Like `org-display-inline-images' but for image data links.
@@ -175,6 +177,7 @@ Full credit goes to org-yt by Tobias Zawada for this function."
                  (when (and ol description)
                    (overlay-put ol 'after-string description)))))))))))
 
+;;;###autoload
 (defun org-remoteimg--fetch-image (protocol link _description)
   "Synchronously retrieve image from cache or web"
   (when (and (image-type-from-file-name link)
