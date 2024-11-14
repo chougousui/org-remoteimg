@@ -148,7 +148,7 @@ Full credit goes to org-yt by Tobias Zawada for this function."
                                      (mapcar 'car image-data-link-parameters)))
                 (re (format
                      "\\[\\[\\(%s\\):\\([^]]+\\)\\]\\(?:\\[\\([^]]+\\)\\]\\)?\\]"
-                            image-data-link-re)))
+                     image-data-link-re)))
        (while (re-search-forward re end t)
          (let* ((protocol (match-string-no-properties 1))
                 (link (match-string-no-properties 2))
